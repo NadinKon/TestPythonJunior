@@ -15,5 +15,3 @@ while True:
     if price < (max_price_1h * 0.99):
         print(f"Price of {symbol} has fallen by 1% in the last hour: {price}")
 
-#Задание 2:
-#Ответ: как вариант доработать данную программу, можно создать список из пар, и в цикле запускать для каждой пары отдельный поток
